@@ -1,0 +1,39 @@
+@font-face{
+font-family:HocusPocus-Hollow;
+src: url("../fonts/HocusPocus-Hollow.ttf");
+}
+@font-face{
+font-family:VistolSans-Light;
+src: url("../fonts/VistolSans-Light.otf");
+}
+body{
+margin:0px;
+background-image: url("../media/bg0.jpg");
+background-size:cover;
+}
+
+.title{
+width:100%;
+background-color:rgba(245, 209, 145,0.5);
+font-family:HocusPocus-Hollow;
+font-size:100px;
+}
+
+.menu ul{
+width:40%;
+}
+
+.menu li{
+margin:0px;
+padding:0px;
+background-color:rgba(24,24,24,0.5);
+font-family:VistolSans-Light;
+font-size:100px;
+color:white;
+}
+#menu1{
+color: orange;
+}
+#menu2,#menu3,#menu4{
+color:white;
+}
