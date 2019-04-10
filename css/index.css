@@ -6,10 +6,12 @@ src: url("../fonts/HocusPocus-Hollow.ttf");
 font-family:VistolSans-Light;
 src: url("../fonts/VistolSans-Light.otf");
 }
+
 body{
-margin:0px;
-background-image: url("../media/bg0.jpg");
-background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: stretch;
 }
 
 .title{
