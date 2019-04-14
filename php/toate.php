@@ -17,10 +17,10 @@
 <a href="./toate.php">
 <img src="../media/menu3.png" width="20%" id="horizontalMenu3" style="float:left;">
 </a>
-<a href="">
+<a href="./adauga.php">
 <img src="../media/menu4.png" width="20%" id="horizontalMenu4" style="float:left;">
 </a>
-<a href="">
+<a href="./despre.php">
 <img src="../media/menu5.png" width="20%" id="horizontalMenu5" style="float:left;">
 </a>
 </div>

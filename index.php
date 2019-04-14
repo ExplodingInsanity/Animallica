@@ -11,8 +11,8 @@
 <ul style="list-style-type:none;"> <center>
 <li id="menu12" style="color:orange;"><a id="menu1" href="./php/random.php">Arunca zarurile!</a></li>
 <li id="menu22" style="font-size:50px;"><a id="menu2" href="./php/toate.php">Toate anunturile</a></li>
-<li id="menu32" style="font-size:50px;color:orange;"><a id="menu3" href="">Adaugare anunt</a></li>
-<li id="menu32" style="font-size:50px;color:orange;"><a id="menu3" href="">Despre noi</a></li>
+<li id="menu32" style="font-size:50px;color:orange;"><a id="menu3" href="./php/adauga.php">Adaugare anunt</a></li>
+<li id="menu32" style="font-size:50px;color:orange;"><a id="menu3" href="./php/despre.php">Despre noi</a></li>
 </ul>
 </div>
 <script src="./js/index.js"></script>

@@ -17,10 +17,10 @@
 <a href="./toate.php">
 <img src="../media/menu3.png" width="20%" id="horizontalMenu3" style="float:left;">
 </a>
-<a href="">
+<a href="./adauga.php">
 <img src="../media/menu4.png" width="20%" id="horizontalMenu4" style="float:left;">
 </a>
-<a href="">
+<a href="./despre.php">
 <img src="../media/menu5.png" width="20%" id="horizontalMenu5" style="float:left;">
 </a>
 </div>
@@ -29,8 +29,8 @@ $result = mysqli_query($connection, "Select count(id) from anunturi");
 $nrAnunturi = mysqli_fetch_array($result)[0];
 
 $idAnuntRandom = rand(1,$nrAnunturi);
-$result = mysqli_query($connection, "Select * from anunturi where id=".$idAnuntRandom);
-$anunt = mysqli_fetch_assoc($result);
+$result = mysqli_query($connection, "Select * from anunturi");
+for(;$idAnuntRandom>0;$idAnuntRandom--)$anunt = mysqli_fetch_assoc($result);
 ?>
 <div style="overflow:auto; background-color:rgba(255,255,255,0.6); position:absolute; top:30%;">
 <br>
