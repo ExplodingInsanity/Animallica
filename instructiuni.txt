@@ -1,0 +1,12 @@
+https://www.apachefriends.org/ro/download.html
+-instaleaza xampp, lasa-l in folderul default
+-pune folderul Animallica (asta in care e fisierul asta text) in C:/xampp/htdocs (tot folderul, nu doar filele din el)
+-porneste xampp control panel
+-da-i start la Apache si MySQL
+-intra pe chrome pe site-ul localhost/phpmyadmin
+-in bara de sus apasa pe Import
+-da-i pe Choose File, si alege fisierul animallica.sql din folderul Animallica, adica teoretic ar trebui sa fie in C:/xampp/htdocs/Animallica/animallica.sql
+-apasa "Go" in josul paginii
+->teoretic acum ar trebui sa fie creata baza de date "animallica" in lista din stanga. daca da, poti inchide tabul ala, si poti sterge "animallica.sql" din folder, si si "instructiuni.txt"
+
+=> acum poti porni site-ul din chrome, daca ai pornit Apache si MySQL din Xampp. intri pe chrome si la link scrii localhost/Animallica

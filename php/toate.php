@@ -7,6 +7,24 @@
 </head>
 <body style='background-image: url("../media/bg2.jpg");'>
 <center><h1 class="title">Toate animalele</h1></center>
+<div style="padding:0px;margin:0px;">
+<a href="../index.php">
+<img src="../media/menu1.png" width="20%" id="horizontalMenu1" style="float:left;">
+</a>
+<a href="./random.php">
+<img src="../media/menu2.png" width="20%" id="horizontalMenu2" style="float:left;">
+</a>
+<a href="./toate.php">
+<img src="../media/menu3.png" width="20%" id="horizontalMenu3" style="float:left;">
+</a>
+<a href="">
+<img src="../media/menu4.png" width="20%" id="horizontalMenu4" style="float:left;">
+</a>
+<a href="">
+<img src="../media/menu5.png" width="20%" id="horizontalMenu5" style="float:left;">
+</a>
+</div>
+<br>
 <?php include('../dbconnection.php');
 $result = mysqli_query($connection, "Select * from anunturi");
 
@@ -26,7 +44,6 @@ echo '<p class="descAnunt">'."Contact: ".$anunt['contact'].'</p>';
 echo '</div><br>';
 }
 ?>
-<center><p style="color:red"><a href="../index.php">Animallica</a></p></center>
-<script src="../js/index.js"></script>
+<script src="../js/menu.js"></script>
 </body> 
 </html>
